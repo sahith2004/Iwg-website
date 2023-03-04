@@ -1,3 +1,4 @@
+
 .App {
   text-align: center;
 }
@@ -23,6 +24,23 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+::-webkit-scrollbar{
+  width: 8px;
+  ;
+  border-radius: 150px;
+  background:#b9e8ff ;
+}
+::webkit-scrollbar-track{
+  background:#b9e8ff ;
+ 
+}
+::webkit-scrollbar-thumb{
+  border-radius: 50px;
+
+}
+::-webkit-scrollbar-thumb:hover{
+  background-color:#0f52ba ;
+}
 
 .App-link {
   color: #61dafb;
@@ -35,4 +53,34 @@
   to {
     transform: rotate(360deg);
   }
+}
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;400&display=swap");
+body{
+  font-family: "Josefin Sans", sans-serif;
+}
+.back-to-top {
+  height: 40px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-size: 100px;
+  z-index: 1000;
+  color: #0f52ba ;
+  cursor: pointer;
+  border-radius: 50%;
+
+  border: none;
+  box-shadow: 0 5px 10px #ccc;
+  display: flex;
+  align-items: center;
+  width: 40px;
+  padding: 0.3px;
+}
+.back-to-top-icon{
+  height: 40px;
+ 
+  
+}
+.back-to-top:hover .back-to-top-icon{
+  color: #61dafb;
 }

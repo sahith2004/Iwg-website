@@ -1,0 +1,53 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;900&family=Roboto&display=swap');
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background: #b9e8ff;
+    height: auto;
+    width: 99.44vw;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 20px;
+    color: black;
+    border: 4px outset #0f52ba;
+border-bottom: none;
+border-left: none;
+border-top-right-radius: 70px;
+}
+.footer-content h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 28px;
+    font-size: 14px;
+}
+.footer-content p{
+    max-width: 600px;
+    
+    line-height: 28px;
+    font-size: 14px;
+}
+.socials{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem;
+
+}
+.socials li{
+    list-style: none;
+    margin: 0 10px;
+}
+.socials a{
+    text-decoration: none;
+    color: #fff;
+}
+@media only screen and (min-width: 300px) and (max-width:1024px){
+    .footer-content{
+        width: 98.5vw;
+    }
+}

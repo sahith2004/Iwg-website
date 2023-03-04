@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;900&family=Roboto&display=swap');
+
+.cc:hover{
+    background-color: #50FBDF;
+    
+
+}
+
+.navbar{
+    backdrop-filter: blur(0.5rem) ;
+    z-index : 10000;
+        
+     
+}
+.me-auto{
+    color: purple;
+}
+.navbar-links span{
+    color: black;
+    
+    font-size: large;
+    font-weight: 400;
+}
+.navbar-links span:hover{
+    font-size: larger;
+    color: #0f52ba;
+}
+.iwg-logo{
+    height: 55px;
+    margin-right:1rem ;
+}
+.social-icon{
+    display: flex;
+    gap: 15px;
+}
+.social-media-icon{
+    font-size: 30px;
+    color: 	
+#000000;
+}
+.social-media-icon:hover{
+    cursor: pointer;
+    color: #0f52ba;
+}
+.cc-icon{
+    font-size: 30px;
+}
+.nav-link{
+    font-size: 25px;
+    font-weight: 600;
+
+}
+.nav-link:hover{
+    cursor: pointer;
+    color: blue;
+}
+/*background-color:#0090FF ;*/
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;400&display=swap");
+.nav-name{
+    font-family: "Josefin Sans", sans-serif;
+    
+}
